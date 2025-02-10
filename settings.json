@@ -1,0 +1,48 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "http.proxyStrictSSL": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "http.systemCertificates": false,
+  "http.proxyAuthorization": null,
+  "application.shellEnvironmentResolutionTimeout": 15,
+  "hediet.vscode-drawio.resizeImages": null,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.activityBar.location": "top",
+  "editor.minimap.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "breadcrumbs.enabled": false,
+  "vim.smartRelativeLine": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after":["<Esc>"]
+    }
+  ], "vim.visualModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after":["<Esc>"]
+    }
+  ], 
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "m"],
+      "after":["bookmarks.toggle"]
+    },
+   {
+      "before": ["<leader>", "b"],
+      "after":["bookmarks.list"]
+    },
+  
+  ]
+}
